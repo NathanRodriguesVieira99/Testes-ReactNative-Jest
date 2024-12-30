@@ -1,4 +1,4 @@
-## instalar jest no React Native
+## Instalar jest no React Native
 
 ```bash
 npm install --save-dev jest @testing-library/react-native @types/jest jest-expo ts-jest @testing-library/jest-native ts-node
@@ -18,6 +18,14 @@ module.exports = {
   moduleFileExtensions: ["ts", "tsx", "js", "jsx", "json", "node"],
 };
 ```
+
+# criar o arquivo jest.setup.ts na raiz do projeto e por esse código:
+
+```
+import '@testing-library/jest-native/extend-expect';
+```
+
+
 
 ## No package.json:
 ```
