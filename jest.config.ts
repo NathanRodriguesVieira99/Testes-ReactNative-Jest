@@ -8,7 +8,7 @@ const config: Config = {
   ],
   moduleFileExtensions: ['ts', 'tsx', 'js', 'jsx', 'json', 'node'],
   testEnvironment: 'jsdom',
-  collectCoverage: true,
+  collectCoverage: false,
   collectCoverageFrom: ['src/**/*.{ts,tsx}', '!src/**/*.d.ts'],
   coverageReporters: ['html', 'text'],
 };
